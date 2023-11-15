@@ -1,0 +1,168 @@
+a {
+    text-decoration-line: none;
+    color: #E5E7EB;
+}
+
+* {
+    font-family: "Roboto";
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 8px;
+    font-size: 18px;
+}
+
+.Hero-Main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FaF8;
+}
+
+.Hero-Secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FaF8;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.title-box {
+    display: flex;
+    background-color: #1F2937;
+    padding: 8px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 100px 0 100px;
+}
+
+.high {
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
+    padding: 5px 20px
+}
+
+.title {
+    width: 400px
+}
+
+.title-box > img {
+    background-color:gray;
+    width: 400px;
+    color: white;
+    text-align: center;
+    line-height: 200px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.container > .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    width: 500px;
+}
+
+.texts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 70px 210px 
+}
+
+.quotation {
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SigningUp {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 30px 70px;
+    color: white;
+    min-width: 600px;
+}
+
+.low {
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
+    padding: 5px 20px;
+    border: 3px solid white;
+}
+
+.Content > .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    padding: 20px auto 20px auto;
+}
